@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, quam! Labore, aspernatur quibusdam aliquam
+        quaerat, consequatur rerum voluptatem laboriosam voluptates unde libero vel cumque similique perferendis
+        delectus hic cupiditate molestias soluta ex, aut quod. Impedit assumenda itaque similique unde quas. Commodi,
+        impedit iusto sed, tenetur sunt recusandae earum odio a dolores amet repellendus mollitia perspiciatis dolor
+        tempore voluptatum quae. Ducimus commodi rerum consequatur in voluptates vero iure soluta tempora eum minus eius
+        dolores aperiam, totam fugiat corporis voluptas aspernatur numquam dolorum. Neque enim laboriosam, maiores ipsam
+        voluptatum eum. Laudantium reiciendis aliquid earum culpa sequi ratione beatae quas quod soluta in.
+    </p>
+    <a href="https://es.wikipedia.org" target="_blank"> wiki</a><br>
+
+    <img src="../imagenes/imagen.jpg" height="100" width="100"><br>
+
+    <a href="../imagenes/img.png" target="_blank">img</a><br>
+
+    <a href="mailto:amazon.correo.amazon@gmail.com">correo</a><br>
+
+    <!--<img src="imagen.gif" usemap="#mapa_zonas" />
+    <map name="mapa_zonas">
+    <area shape="rect" coords="20,25,84,113" href="rectangulo.html" />
+    <area shape="polygon" coords="90,25,162,26,163,96,89,25,90,24" href="triangulo.html" />
+    <area shape="circle" coords="130,114,29" href="circulo.html" />
+    <area shape="rect" coords="19,156,170,211" href="mailto:rectangulo@direccion.com" />
+    <area shape="default" nohref="nohref" />
+    </map>-->
+
+    <ul>
+        <li>Lista no enumerada </li>
+        <li>Elemento 2</li>
+    </ul>
+    <ol>
+        <li>Lista enumerada </li>
+        <li>Elemento 4</li>
+    </ol>
+    <dl>
+        <dt>Termino 1
+        <dd>Definicion del termino</dd>
+        </dt>
+        <dt>Termino 2
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing.</dd>
+        </dt>
+    </dl>
+    <h1>-------------------------------</h1>
+
+
+
+
+    <h2>Indice de listas</h2>
+    <ol type="I" start="500">
+        <li>Numeros romanos 1</li>
+        <li>Numeros romanos 2</li>
+        <ol type="A">
+            <li>Letra mayuscula A</li>
+            <li>Letra mayuscula B</li>
+
+            <ol>
+                <li>Numerada 1 </li>
+                <li>Numerada 2</li>
+            </ol>
+            <li>Letra mayuscula C</li>
+        </ol>
+        <li>Numeros romanos 3</li>
+    </ol>
+    <h1>----------------------------------</h1>
+    <h2>Tablas</h2>
+
+    <table border="2"><!--Tabla-->
+        <tr><!--Fila 1-->
+            <th colspan="2">Encabezado 1 y 2</th><!--th te lo pone en negrita-->
+            <!-- <th>Encabezado 2</th> -->
+            <th>Encabezado 3</th>
+        </tr>
+        <tr><!--Fila 2-->
+            <td rowspan="2">Dato 1 y 3</td><!--td te lo pone normal-->
+            <td>Dato 2</td>
+            <td><img src="../imagenes/imagen.jpg" height="100" width="100"></td>
+        </tr>
+        <tr>
+            <!-- <td>Dato 3</td> -->
+            <td>Dato 4</td>
+            <td>Dato 5</td>
+        </tr>
+    </table>
+    <h3>-------------------------------</h3>
+    <table style="border: 3px solid">
+        <caption>Ejemplo tabla</caption>
+        <thead>
+            <tr>
+                <th>Numeros</th>
+                <th>A</th>
+                <th>B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>A1</td>
+                <td>B1</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>A2</td>
+                <td>B2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Esto es contenido</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h3>-------------------------------</h3>
+    <table border="1">
+        <colgroup width="80" span="1" bgcolor="blue"></colgroup>
+        <colgroup span="1" bgcolor="red"></colgroup>
+        <colgroup>
+            <col span="2" style="background-color: red;">
+        </colgroup>
+        <tr bgcolor="red">
+            <th>Encabezado1</th>
+            <th>Encabezado2</th>
+            <th>Encabezado3</th>
+            <th>Encabezado4</th>
+        </tr>
+        <tr bgcolor="red">
+            <td>Dato1</td>
+            <td>Dato2</td>
+            <td>Dato3</td>
+            <td>Dato4</td>
+        </tr>
+        <tr bgcolor="yellow">
+            <td>Dato1</td>
+            <td>Dato2</td>
+            <td>Dato3</td>
+            <td>Dato4</td>
+        </tr>
+        <tr bgcolor="yellow">
+            <td>Dato1</td>
+            <td>Dato2</td>
+            <td>Dato3</td>
+            <td>Dato4</td>
+        </tr>
+        <tr bgcolor="red">
+            <td>Dato1</td>
+            <td>Dato2</td>
+            <td>Dato3</td>
+            <td>Dato4</td>
+        </tr>
+        <tr bgcolor="red">
+            <td>Dato1</td>
+            <td>Dato2</td>
+            <td>Dato3</td>
+            <td>Dato4</td>
+        </tr>
+    </table>
+    <h1>----------------------------------</h1>
+    <h1>Ejemplos formularios</h1>
+    <form method="post" action="">
+        <p>
+            <label for="nombre">NOMBRE</label>
+            <input type="text" name="nombre" />
+        </p>
+        <p>
+            <label for="apellido">APELLIDO</label>
+            <input type="text" placeholder="Primer apellido" name="apellido" />
+        </p>
+        <p>
+            <label for="provincia">PROVINCIA</label>
+            <select name="provincia">
+                <option value="Z">Zaragoza</option>
+                <option>Huesca</option>
+                <option>Teruel</option>
+                <option>Guadalajara</option>
+            </select>
+        </p>
+        <p>
+            <button type="reset">
+                reset
+            </button>
+        </p>
+    </form>
+    <h2>-------------------------------</h2>
+    <h1>Otro ejemplo formulario</h1>
+    <form method="post">
+        <fieldset>
+            <legend align="right">Ejemplos</legend>
+            <p>
+                <label for="iname">Nombre:</label>
+                <input id="iname" type="text" name="name">
+            </p>
+            <label for="iapellido">Apellidos:</label>
+            <input id="iapellido" type="text" name="Apellidos">
+            <p>
+                <label for="iemail">Email:</label>
+                <input id="iemail" type="email" name="email">
+            <p>
+                <label for="ipass">Contraseña::</label>
+                <input id="ipass" type="password" name="pass">
+            <p>
+                <!-------------------------------------------------------------->
+                <input id="red" type="checkbox" value="red">
+                <label for="red">Rojo:</label>
+
+                <input id="green" type="checkbox" value="green">
+                <label for="green">green:</label>
+
+                <input id="blue" type="checkbox" value="blue">
+                <label for="blue">blue:</label>
+            </p>
+            <!-------------------------------------------------------------->
+            <p>
+                <input id="Madrid" type="radio" value="Capital" name="ciudad">
+                <label for="Madrid">Madrid</label>
+
+                <input id="Roma" type="radio" value="Capital" name="ciudad">
+                <label for="Roma">Roma</label>
+
+                <input id="Italia" type="radio" value="Capital" name="ciudad">
+                <label for="Italia">Italia</label>
+            </p>
+
+            <!-- <input type="button" onclick="alert('hola');" value="Hola"> -->
+            <p>
+
+                <input type="submit" value="Enviar">
+
+                <input type="reset" value="Reset">
+            </p>
+        </fieldset>
+    </form>
+    <h1>------------------------------------------------</h1>
+    <h1>Listas de desplegables con agrupaciones</h1>
+    <h2>Peliculas por generos</h2>
+    <form id="formulario" name="formulario" method="post">
+        <fieldset>
+            <legend>Desplegable</legend>
+            <select name="peliculas" id="peliculas">
+                <optgroup label="Grupo1" disabled="disabled">
+                    <option value="121">Pulp Fiction</option>
+                    <option value="127">Crimen perfecto</option>
+                    <option value="218">Regreso al futuro</option>
+                    <option value="92">Desafio total</option>
+                </optgroup>
+                <optgroup label="Clasicas">
+                    <option value="1">El padrino</option>
+                    <option value="2">21 black jack</option>
+                    <option value="3">El bueno, el feo y el malo</option>
+                    <option value="4">Django</option>
+                </optgroup>
+                <optgroup label="Comedia">
+                    <option value="6">Four rooms</option>
+                    <option value="7">Austin Powers</option>
+                    <option value="8">George de la jungla</option>
+                    <option value="9">La mascara</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Data list</legend>
+            <label for="ml">DATALIST</label>
+            <input type="text" name="ml" list="mydata">
+            <datalist id="mydata">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+            </datalist>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">Primer nombre</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="Cumplenaños">Cumpleaños</label>
+            <input type="date" id="Cumpleaños" name="Cumpleaños"><br><br>
+
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+
+
+</html>
